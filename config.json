@@ -1,0 +1,99 @@
+{
+    "camera_id": 0,
+    "model_path": "yolo11n.pt",
+    "confidence_threshold": 0.4532258064516129,
+    "camera_settings": {
+        "width": 1280,
+        "height": 720,
+        "fps": 60,
+        "auto_exposure": true,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0
+    },
+    "show_ui": true,
+    "show_detection_boxes": true,
+    "show_tracking_boxes": true,
+    "show_trajectories": true,
+    "show_velocity_vectors": true,
+    "show_future_predictions": true,
+    "show_sift_features": true,
+    "show_detailed_info": true,
+    "show_fps_info": true,
+    "show_legend": true,
+    "show_depth_markers": true,
+    "show_depth_legend": true,
+    "monitor_windows": {
+        "main_window": {
+            "enabled": true,
+            "name": "Main Window",
+            "position": [
+                100,
+                100
+            ],
+            "size": [
+                1280,
+                720
+            ]
+        },
+        "detection_window": {
+            "enabled": true,
+            "name": "Detection Window",
+            "position": [
+                1400,
+                100
+            ],
+            "size": [
+                640,
+                480
+            ]
+        },
+        "tracking_window": {
+            "enabled": true,
+            "name": "Tracking Window",
+            "position": [
+                1400,
+                600
+            ],
+            "size": [
+                640,
+                480
+            ]
+        }
+    },
+    "tracking_params": {
+        "max_disappeared": 30,
+        "max_distance": 100,
+        "trajectory_length": 90,
+        "future_prediction_steps": 15,
+        "future_prediction_display_steps": 3,
+        "sift_feature_limit": 10
+    },
+    "display_params": {
+        "font_scale": 0.7,
+        "line_thickness": 2,
+        "box_thickness": 2,
+        "text_color": [
+            255,
+            255,
+            255
+        ],
+        "background_alpha": 0.7
+    },
+    "output_settings": {
+        "save_video": false,
+        "output_path": "output.mp4",
+        "fps": 30,
+        "codec": "mp4v"
+    },
+    "performance": {
+        "use_gpu": true,
+        "max_fps": 60,
+        "skip_frames": 0,
+        "resize_input": false,
+        "input_size": [
+            640,
+            640
+        ]
+    }
+}

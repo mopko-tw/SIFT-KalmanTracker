@@ -1,0 +1,156 @@
+# YOLO11 Object Tracking System - Git Ignore File
+
+# ==================== Chinese Documentation Files ====================
+# Ignore Chinese documentation and comments
+config_説明.md
+config_註釋.txt
+config_gui.py
+*_中文*
+*_繁體*
+*_簡體*
+
+# ==================== Model Files ====================
+# YOLO model files (large binary files)
+*.pt
+*.onnx
+*.engine
+*.trt
+
+# ==================== Output Files ====================
+# Generated videos and images
+output*.mp4
+output*.avi
+output*.mov
+*.mp4
+*.avi
+*.mov
+screenshots/
+recordings/
+
+# ==================== Cache and Temporary Files ====================
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ==================== Environment Files ====================
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==================== IDE and Editor Files ====================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# ==================== OS Generated Files ====================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Linux
+*~
+
+# ==================== Log Files ====================
+# Application logs
+*.log
+logs/
+debug.log
+error.log
+
+# ==================== Configuration Backups ====================
+# Backup configuration files
+config_backup*.json
+*.bak
+*.backup
+
+# ==================== Test Files ====================
+# Test outputs and temporary files
+test_output/
+temp/
+tmp/
+
+# ==================== Custom Exclusions ====================
+# User-specific files
+user_config.json
+personal_settings.json
+
+# Large datasets
+datasets/
+data/
+videos/
+images/
+
+# Compiled extensions
+*.dll
+*.dylib
+
+# C extensions
+*.so
+
+# Cython debug symbols
+cython_debug/ 
