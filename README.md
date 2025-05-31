@@ -624,17 +624,17 @@ This project was developed with assistance from **Claude.ai**, an AI assistant b
 - **Best Practices**: Guidance on coding standards and optimization techniques
 
 ### Development Highlights
-- **Human-Led Development**: Primary development driven by human creativity and expertise
-- **AI-Assisted Review**: Claude.ai helped identify potential issues and suggest improvements
+- **Learning-Driven Development**: Development process guided by learning and exploration
+- **AI-Assisted Learning**: Claude.ai helped identify potential issues and suggest improvements
 - **Collaborative Problem Solving**: AI assistance in analyzing complex technical challenges
 - **Enhanced Documentation**: AI support in creating detailed guides and explanations
 - **Quality Assurance**: Additional perspective on code quality and user experience
 
-Claude.ai served as a helpful assistant, providing suggestions, identifying potential problems, and offering ideas to enhance the development process while the core development remained human-driven.
+Claude.ai served as a helpful assistant, providing suggestions, identifying potential problems, and offering ideas to enhance the development process while supporting the learning journey of a programming beginner.
 
 ---
 
-**Developed by Human Expertise with AI Assistance**
+**Developed by a Programming Beginner with AI Assistance**
 
 ---
 
